@@ -1,3 +1,5 @@
+package br.edu.insper.desagil.aps3.vapor;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+package br.edu.insper.desagil.aps3.vapor;
+
 import java.util.List;
 
 public class Loja {
@@ -8,14 +7,13 @@ public class Loja {
     private List<Jogo> jogos;
 
     public Loja(Usuario dono, List<Jogo> jogos){
-        this.dono=dono;
+        this.dono = dono;
         this.jogos = jogos;
     }
 
     public Usuario getDono(){
         return dono;
     }
-
 
     public int numJogosAvaliados(Usuario usuario){
         int i = 0;
